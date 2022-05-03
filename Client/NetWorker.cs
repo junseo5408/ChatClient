@@ -118,7 +118,7 @@ namespace Client
         {
             isEnable = false;
 
-            socket.Close();
+            //socket.Close();
             socket.Dispose();
             Console.WriteLine("Disconnected from server");
             timer.Stop();
